@@ -1,7 +1,5 @@
 package org.newswhip;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import java.net.URISyntaxException;
 import java.util.Scanner;
 
@@ -11,6 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("URL Manager - Enter commands (ADD, REMOVE, EXPORT, EXIT):");
 
+        // The program flow starts here, based on the user input command.
         while (true) {
             System.out.print("> ");
             String input = scanner.nextLine().trim();
